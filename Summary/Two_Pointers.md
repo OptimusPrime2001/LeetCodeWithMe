@@ -11,7 +11,7 @@ Kỹ thuật này dùng hai con trỏ (điểm truy cập trong dữ liệu) đ�
 ### a) **Two Pointers Trái - Phải**
 - Hai con trỏ đặt ở hai đầu danh sách/chuỗi và dần di chuyển vào trong.
 - Dùng trong các bài toán:
-  - Tìm cặp số thỎc hiện **target sum**
+  - Tìm cặp số có tổng bằng giá trị target hiện **target sum**
   - Kiểm tra chuỗi palindrome
   - Sắp xếp danh sách theo quy tắc nhất định
 
