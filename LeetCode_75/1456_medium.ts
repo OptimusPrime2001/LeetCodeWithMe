@@ -36,5 +36,5 @@ function maxVowels(s: string, k: number): number {
     }
     return max;
 };
-const a = "abciiidef", b = 3;
+const a = "leetcode", b = 3;
 console.log(maxVowels(a, b));
