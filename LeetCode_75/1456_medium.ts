@@ -18,18 +18,18 @@ Explanation: "lee", "eet" and "ode" contain 2 vowels.
 */
 function maxVowels(s: string, k: number): number {
     let max = 0;
-    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    let vowels = new Set(['a', 'e', 'i', 'o', 'u']);
     for (let i = 0; i < k; i++) {
-        if (vowels.includes(s[i])) {
+        if (vowels.has(s[i])) {
             max++;
         }
     }
     let current = max;
     for (let i = k; i < s.length; i++) {
-        if (vowels.includes(s[i])) {
+        if (vowels.has(s[i])) {
             current++;
         }
-        if (vowels.includes(s[i - k])) {
+        if (vowels.has(s[i - k])) {
             current--;
         }
         max = Math.max(max, current);
