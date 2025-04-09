@@ -57,4 +57,4 @@ for (const ch of vowels) {
 - Khi bạn cần **kiểm tra nhanh một giá trị có tồn tại hay không** (tốt hơn array `includes` vì `Set.has()` nhanh hơn).
 - Khi làm bài toán kiểu: **tập hợp ký tự đặc biệt**, **filter trùng**, **vowel checking** (như của bạn).
 
----
+-
